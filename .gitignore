@@ -1,0 +1,53 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.p8
+AuthKey_*.p8
+GoogleService-Info.plist
+*.jks
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+coverage/
+*.tsbuildinfo
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Data and media
+data/
+uploads/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+ios/Thinking.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Thinking.xcodeproj/xcuserdata/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test artifacts
+.tmp/
+.cache/
